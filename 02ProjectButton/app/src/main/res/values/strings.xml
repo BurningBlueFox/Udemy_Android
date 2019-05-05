@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyButton</string>
+    <string name="bt_1">Hey Android!</string>
+    <string name="bt_2">Hi</string>
 </resources>

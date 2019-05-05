@@ -26,4 +26,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    public void extraButtonClicked(View view){
+        Log.d("Test", "Extra button clicked");
+        Button myBt = (Button)view;
+        myBt.setText(R.string.bt_extra);
+
+        Context context = getApplicationContext();
+        Toast.makeText(context, "Hi Toast", Toast.LENGTH_SHORT).show();
+    }
 }

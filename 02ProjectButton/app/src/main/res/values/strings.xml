@@ -2,4 +2,6 @@
     <string name="app_name">MyButton</string>
     <string name="bt_1">Hey Android!</string>
     <string name="bt_2">Hi</string>
+    <string name="bt_extra">Extra Button</string>
+    <string name="button">Button</string>
 </resources>

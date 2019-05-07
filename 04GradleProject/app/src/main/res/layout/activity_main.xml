@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EAF0F1"
+    tools:context=".MainActivity">
+
+    <!-- Error Button -->
+    <Button
+        android:id="@+id/btn_error"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="#BA2F16"
+        android:onClick="ShowToast"
+        android:stateListAnimator="@android:anim/linear_interpolator"
+        android:text="Error Button"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp" />
+
+    <!-- Success Button -->
+    <Button
+        android:id="@+id/btn_success"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Success Button"
+        android:background="#16BA4D"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:onClick="ShowToast"
+        android:stateListAnimator="@android:anim/linear_interpolator"
+        />
+
+    <!-- Info Button -->
+    <Button
+        android:id="@+id/btn_info"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Info Button"
+        android:background="#4F92E4"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:onClick="ShowToast"
+        android:stateListAnimator="@android:anim/linear_interpolator"
+        />
+
+    <!-- Warning Button -->
+    <Button
+        android:id="@+id/btn_warning"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Warning Button"
+        android:background="#E0B82A"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:onClick="ShowToast"
+        android:stateListAnimator="@android:anim/linear_interpolator"
+        />
+
+    <!-- Image Button -->
+    <Button
+        android:id="@+id/btn_image"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image Button"
+        android:background="#00CCCD"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:onClick="ShowToast"
+        android:stateListAnimator="@android:anim/linear_interpolator"
+        />
+
+</LinearLayout>

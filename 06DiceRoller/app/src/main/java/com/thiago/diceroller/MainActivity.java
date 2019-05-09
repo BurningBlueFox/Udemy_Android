@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         Random random = new Random();
         int randomNumber = random.nextInt(6) + 1;
 
-        ImageView image = (ImageView)findViewById(R.id.image_dice);
+        ImageView image = (ImageView)findViewById(R.id.image_dice_1);
 
         switch (randomNumber){
             case 1: image.setImageResource(R.drawable.dice_1);

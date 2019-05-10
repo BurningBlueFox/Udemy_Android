@@ -60,17 +60,115 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.31">
 
+
+        <!-- Dice 1 -->
         <ImageView
             android:id="@+id/image_dice_1"
-            android:layout_width="wrap_content"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
+            android:layout_marginStart="1dp"
             android:layout_marginTop="0dp"
-            android:layout_marginEnd="8dp"
+            android:layout_marginEnd="1dp"
             android:layout_marginBottom="0dp"
-            android:layout_weight="@android:dimen/app_icon_size"
+            android:layout_weight="1"
             android:contentDescription="@string/dice_description"
             android:onClick="OnClickRollDice"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/dice_6" />
+
+        <!-- Dice 2 -->
+        <ImageView
+            android:id="@+id/image_dice_2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/dice_description"
+            android:onClick="OnClickRollDice"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/dice_6" />
+
+        <!-- Dice 3 -->
+        <ImageView
+            android:id="@+id/image_dice_3"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/dice_description"
+            android:onClick="OnClickRollDice"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/dice_6" />
+
+        <!-- Dice 4 -->
+        <ImageView
+            android:id="@+id/image_dice_4"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/dice_description"
+            android:onClick="OnClickRollDice"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/dice_6" />
+
+        <!-- Dice 5 -->
+        <ImageView
+            android:id="@+id/image_dice_5"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/dice_description"
+            android:onClick="OnClickRollDice"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/dice_6" />
+
+        <!-- Dice 6 -->
+        <ImageView
+            android:id="@+id/image_dice_6"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/dice_description"
+            android:onClick="OnClickRollDice"
+            android:visibility="visible"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

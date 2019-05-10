@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">FunBackgroundGenerator</string>
+    <string name="description_bt_refresh">Refresh the background color</string>
 </resources>

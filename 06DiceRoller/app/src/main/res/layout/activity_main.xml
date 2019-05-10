@@ -44,6 +44,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <LinearLayout
+        android:id="@+id/layout_dice"
         android:layout_width="395dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
